@@ -18,6 +18,7 @@ Salvo la última, con una respuesta clara (no), son preguntas que se quedarán s
 * [Lista con recursos variados útiles](https://github.com/gonzaleztroyano/gonzaleztroyano/blob/main/resources.md)
 * [Documentación *Cloud & Kubernetes Workshop* ofrecida en 2º ASIR](https://github.com/gonzaleztroyano/gonzaleztroyano/blob/main/Cloud_and_kubernetes_Workshop.pdf)
 * [Documento resumen *Spotify Stats con BigQuery y Data Studio*](https://github.com/gonzaleztroyano/gonzaleztroyano/blob/main/Spotify_Stats_BigQuery_DataStudio.pdf)
+* [Programmatic DNS Updater using Cloudflare API (Bash Script)](https://gist.github.com/gonzaleztroyano/d86210915347f1c9ec1ceb940a5ade0c)
 
 ¡Y creciendo! 💹
 
