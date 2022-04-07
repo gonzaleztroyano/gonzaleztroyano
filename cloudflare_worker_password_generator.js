@@ -22,7 +22,7 @@ function genPassword(pathname) {
         } else if (pathname == 'A'){
             var chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
         } else {
-            return "ERROR en la solicitud. Ver (ENLACE) - 1";
+            return "ERROR en la solicitud. +info: https://pglez.es/genera-password-overview - 1";
         }
     } else if (regex_alphanum.test(pathname)) {
         let gen_opt = pathname.substr(-1);
@@ -34,17 +34,17 @@ function genPassword(pathname) {
         } else if (gen_opt == 'A'){
             var chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
         } else {
-            return "ERROR en la solicitud. Ver (ENLACE) - 2";
+            return "ERROR en la solicitud. +info https://pglez.es/genera-password-overview - 2";
         }
     } else {
-        return "ERROR en la solicitud. Ver (ENLACE) - 3";
+        return "ERROR en la solicitud. +info: https://pglez.es/genera-password-overview - 3";
     }
     var password = "";
     for (var i = 0; i < passwordLength; i++) {
         var randomNumber = Math.floor(Math.random() * chars.length);
         password += chars.substring(randomNumber, randomNumber + 1);
     }
-    console.log('Ver código: https://pglez.es/genera-password-code');
+    console.log('Más información: https://pglez.es/genera-password-overview');
     return password;
 }
 
